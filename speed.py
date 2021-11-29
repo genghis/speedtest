@@ -28,7 +28,7 @@ upload_speed = results_dict['upload']/1000000
 ping = results_dict['ping']
 timestamp = results_dict['timestamp']
 
-dump_string = f"\n\nRUN AT: {timestamp}\nDOWNLOAD SPEED: {download_speed} Mbps\nUPLOAD SPEED: {upload_speed} Mbps\nPING: {ping} ms\n---------------------"
+dump_string = f"RUN AT: {timestamp}\nDOWNLOAD SPEED: {download_speed} Mbps\nUPLOAD SPEED: {upload_speed} Mbps\nPING: {ping} ms\n---------------------\n\n"
 
 results_file.write(dump_string)
 verbose_results.write(json.dumps(results_dict)+"\n-------------\n")
