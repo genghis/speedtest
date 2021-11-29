@@ -26,7 +26,7 @@ From the command line, in the directory you've installed this repo and its virtu
 
 `pwd` - This gives you the absolute path to your directory. [^1]
 
-[^1]: I'm going to use `[pwd_string]` as a placeholder later, so if `pwd` gives you `/usr/bin/genghis/speedtest`, then `[pwd_string]/bin` would be `usr/bin/genghis/speedtest/bin`
+[^1]: I'm going to use `[pwd_string]` as a placeholder later, so if `pwd` gives you `/Users/genghis/speedtest`, then `[pwd_string]/bin` would be `Users/genghis/speedtest/bin`
 
 Great! Now, let's do some Cron stuff.
 
