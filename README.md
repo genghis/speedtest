@@ -19,11 +19,15 @@ Alright, so now that you know your system can run this bad boy.
 
 I'm stealing these instructions from: https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e
 
-From the command line, in the directory you've installed this repo and its virtual environment to, run the following commands and paste the results in a notepad or something:
+From the command line, in the directory you've installed this repo and its virtual environment to, run the following command and paste the results in a notepad or something:
 
-`pwd` - This gives you the absolute path to your directory. I'm going to use `[pwd_string]` as a placeholder later, so if `pwd` gives you `/usr/bin/genghis/speedtest`, then `[pwd_string]/bin` would be `usr/bin/genghis/speedtest/bin`
+`pwd` 
+
+This gives you the absolute path to your directory. 
+--
+ASIDE-- I'm going to use `[pwd_string]` as a placeholder later, so if `pwd` gives you `/usr/bin/genghis/speedtest`, then `[pwd_string]/bin` would be `usr/bin/genghis/speedtest/bin`
 `which python3` - This gives you the absolute path to the Python install. I'll use `[python_string]` to represent this later.
-
+--
 Great! Now, let's do some Cron stuff.
 
 You're gonna run the command below, and then it's gonna open up VIM. Which is dumb but here we are.
