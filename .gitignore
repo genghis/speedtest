@@ -1,0 +1,6 @@
+bin/
+lib/
+include/
+pyvenv.cfg
+results.txt
+verbose.txt
