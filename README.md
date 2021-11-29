@@ -7,8 +7,11 @@ This is straight up robbing the speedtest-cli project, and just saving its resul
 Pretty simple, to run you just need to pull down this repo (and have Python3 installed), and run the following.
 
 `python3 -m venv ./` - This creates a Python virtual environment so you don't install dependencies system-wide
+
 `source bin/activate` - This actually gets you up in that venv
+
 `pip3 install -r requirements.txt` - This installs any dependencies from this project (right now that's just speedtest-cli, but who knows!)
+
 `python3 speedy.py` - This actually runs the script. It'll take a little bit to run, so if it looks like it's stalling out, that means it's working.
 
 You can see the results printed ugly in the terminal, but importantly, you can find the topline numbers in `results.txt` and the entirety of the `results_dictionary` (in case your ISP wants more info) in `verbose.txt`
