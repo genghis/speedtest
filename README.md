@@ -36,7 +36,7 @@ You're gonna run the command below, and then it's gonna open up VIM. Which is du
 
 Now that you're in VIM, hit the `I` key so you can start inserting.
 
-Enter the following (you'll need to fill in the variables I mention above) into the file:
+Enter the following (you'll need to fill in the variable I mention above) into the file:
 
 ```
 SHELL=/bin/bash
